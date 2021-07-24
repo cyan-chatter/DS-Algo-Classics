@@ -1,0 +1,3 @@
+"E:\Apps\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\segment_tree.dir/objects.a
+C:\MinGW\mingw32\bin\ar.exe cr CMakeFiles\segment_tree.dir/objects.a @CMakeFiles\segment_tree.dir\objects1.rsp
+C:\MinGW\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\segment_tree.dir/objects.a -Wl,--no-whole-archive  -o segment_tree.exe -Wl,--out-implib,libsegment_tree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\segment_tree.dir\linklibs.rsp
